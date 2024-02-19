@@ -6,22 +6,23 @@
 
 ### 🎯学习目标
 - 熟悉主流LLM（Llama, ChatGLM, Qwen）的技术架构和技术细节；有实际应用RAG、PEFT和SFT的项目经验
-- 较强的NLP基础，熟悉BERT、T5、Transformer和GPT的实现和差异，能快速掌握业界进展，有对话系统相关研发经验
+- 较强的NLP基础，熟悉BERT、GPT、Transformer、T5等预训练语言模型的实现，有对话系统相关研发经验
 - 掌握TensorRT-LLM、vLLM等主流推理加速框架，熟悉模型量化、FlashAttention等推理加速技术方案，对分布式训练DeepSpeed框架有实战经验
-- 熟悉Pytorch，具备扎实的深度学习和机器学习基础，对C/C++、Cuda、计算机系统有一定了解
+- 熟悉Pytorch，具备扎实的深度学习和机器学习基础，基本掌握C/C++、Cuda和计算机系统原理
 
 ### 🚤参考项目
-- 梦中情炉 https://github.com/lyhue1991/torchkeras/
+- **torchkeras** 
+https://github.com/lyhue1991/torchkeras/
 ![Alt text](imgs/torchkeras.png)
 
-- llm-action
+- **llm-action**
 https://github.com/liguodongiot/llm-action
-![Alt text](imgs/llm-action.png)
+<img src="imgs/llm-action.png" width="50%" height="40%">
 
 ### 📕参考书籍
-- **大规模语言模型：从理论到实践 -- 张奇、桂韬、郑锐、黄萱菁** https://intro-llm.github.io/intro-llm
-
-![Alt text](imgs/intro-llm.png)
+- **大规模语言模型：从理论到实践** 
+https://intro-llm.github.io/intro-llm
+<img src="imgs/intro-llm.png" width="50%" height="50%">
 
 - **ChatGPT原理与实战** https://github.com/liucongg/ChatGPTBook
 ![Alt text](imgs/ChatGPT原理与实战.png)
@@ -73,12 +74,12 @@ https://transformers.run/
     - 上下文学习In-Context Learning, ICL
     - 思维链 Chain of Thought, COT
 
-- RAG (Retrive Augment Generate)
+- RAG (Retrieval Augmented Generation)
     - 基于文档分块、向量索引和LLM生成，如Langchain文档问答
 
 **领域数据-指令微调LLM**
 
-- PEFT (Parameter Efficient Fintuning):
+- PEFT (Parameter-Efficient Fine-Tuning):
     - LORA (Low-Rank Adaption of LLMs)
     - QLORA
     - SLORA
@@ -156,7 +157,6 @@ Torch代码详解和训练实战：https://www.cnblogs.com/justLittleStar/p/1778
 - GPT-1：Improving Language Understanding by Generative Pre-Training
 - GPT-2: Language Models are Unsupervised Multitask Learners
 - GPT-3：Language Models are Few-Shot Learners
-- GPT-3衍生模型CodeX: Evaluating Large Language Models Trained on Code 
 - GPT-4：GPT-4 Technical Report(openai.com)
 
 **博客**
@@ -204,16 +204,17 @@ ToDo
 - BERT结构和预训练代码实现：ToDo
 - BERT预训练实战：[动手学深度学习-BERT预训练 Colab](https://colab.research.google.com/github/d2l-ai/d2l-pytorch-colab/blob/master/chapter_natural-language-processing-pretraining/bert-pretraining.ipynb#scrollTo=e17d97e2 "BERT预训练 Colab")
 - 基于HuggingFace的BERT预训练
-- BERT微调：文本分类实战、BERT-CRF实体识别实战、BERT+指针网络（UIE）信息抽取实战
+- BERT微调：文本分类、BERT-CRF NER、BERT+指针网络（UIE）信息抽取、文本摘要和相似性检索
 
 #### 3.3.2 BERT衍生系列
 - 	 RoBERTa
-- 	 ALBERT
+- 	 ALBERT / DistillBERT
 - 	 SimBERT
 
 ### 3.4 其他
-#### 3.4.1 T5
-##### 3.4.1.1 T5模型介绍
+#### 3.4.1 T5系列
+##### 3.4.1.2 T5-Pegasus对话摘要微调
+##### 3.4.1.3 PromptClue关键词抽取微调
 #### 3.4.2 UniLM
 ##### 3.4.2.1 UniLM模型介绍
 ##### 3.4.2.2 基于夸夸闲聊数据的UniLM模型实战

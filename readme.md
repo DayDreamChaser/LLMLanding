@@ -41,6 +41,7 @@ https://stanford-cs324.github.io/winter2022/
 - Huggingface Transformers官方课程 https://huggingface.co/learn/nlp-course/
 - Transformers快速入门（快速调包BERT系列）
 https://transformers.run/
+- 基于transformers的自然语言处理(NLP)入门: https://github.com/datawhalechina/learn-nlp-with-transformers/tree/main
 
 ### 💥学习方式
 - 力求快速应用 （先调包，再深入学习）
@@ -267,12 +268,19 @@ llama 2详解： https://zhuanlan.zhihu.com/p/649756898
 #### 5.2.2 CodeLlama微调
 
 ## 第6章 LLM微调
+微调入门
+https://lightning.ai/pages/community/article/understanding-llama-adapters/
+
 ### 6.1 全量指令微调
 ### 6.2 高效模型微调PEFT简介
 ### 6.3 LORA系列
+LORA和QLoRA微调的调参心得Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments 
+https://lightning.ai/pages/community/lora-insights/
+
 #### 6.3.1 LoRA（Low Rank Adapter）
 **ChatGLM-6B**: https://zhuanlan.zhihu.com/p/625468667
 **ChatGLM2微调保姆级教程**:https://zhuanlan.zhihu.com/p/643856076
+**Qwen7b微调保姆级教程**: https://zhuanlan.zhihu.com/p/655935378
 
 #### 6.3.2 QLoRA
 用bitsandbytes、4比特量化和QLoRA打造亲民的LLM:https://www.cnblogs.com/huggingface/p/17816374.html
@@ -380,6 +388,8 @@ RLHF：Augmenting Reinforcement Learning with Human Feedback
 #### 11.2.4 RLHF问题分析
 #### 11.2.5 数据收集与模型训练
 #### 11.2.6 开源数据
+RLHF in 2024 with DPO & Hugging Face
+https://www.philschmid.de/dpo-align-llms-in-2024-with-trl
 
 RLHF实践
 https://zhuanlan.zhihu.com/p/635569455

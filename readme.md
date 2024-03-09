@@ -278,10 +278,10 @@ LORA和QLoRA微调的调参心得Finetuning LLMs with LoRA and QLoRA: Insights f
 https://lightning.ai/pages/community/lora-insights/
 
 #### 6.3.1 LoRA（Low Rank Adapter）
-**ChatGLM-6B**: https://zhuanlan.zhihu.com/p/625468667
-**ChatGLM2微调保姆级教程**:https://zhuanlan.zhihu.com/p/643856076
-**Qwen1.5 7B 微调**: https://github.com/datawhalechina/self-llm/blob/master/Qwen1.5/04-Qwen1.5-7B-chat%20Lora%20%E5%BE%AE%E8%B0%83.md
-**Qwen7b微调保姆级教程**: https://zhuanlan.zhihu.com/p/655935378
+- **ChatGLM-6B**: https://zhuanlan.zhihu.com/p/625468667
+- **ChatGLM2微调保姆级教程**:https://zhuanlan.zhihu.com/p/643856076
+- **Qwen1.5 7B 微调**: https://github.com/datawhalechina/self-llm/blob/master/Qwen1.5/04-Qwen1.5-7B-chat%20Lora%20%E5%BE%AE%E8%B0%83.md
+- **Qwen7b微调保姆级教程**: https://zhuanlan.zhihu.com/p/655935378
 
 #### 6.3.2 QLoRA
 用bitsandbytes、4比特量化和QLoRA打造亲民的LLM:https://www.cnblogs.com/huggingface/p/17816374.html

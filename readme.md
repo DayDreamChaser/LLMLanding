@@ -53,7 +53,6 @@ https://transformers.run/
     - 吴恩达机器学习入门：https://www.coursera.org/learn/machine-learning
     - 李沐讲AI：https://space.bilibili.com/1567748478?spm_id_from=333.337.0.0
     - 台大李宏毅-机器学习 https://speech.ee.ntu.edu.tw/~hylee/ml/2023-spring.php 
-
     - 斯坦福NLP cs224n https://web.stanford.edu/class/cs224n/
 
 -  书籍
@@ -92,7 +91,6 @@ https://transformers.run/
     - 全参数监督微调，使用prompt指令样本全量微调LLM（可以注入新的领域知识）
     - 需要控制样本配比（领域数据 + 通用数据）
 
-
 **对齐**
 
 - 对齐人类偏好 (RLHF)：
@@ -112,16 +110,14 @@ https://transformers.run/
 - 蒸馏
 - 推理框架（vLLM、TensorRT-LLM、Llama.cpp）
 
-
 # 学习目录
-
 ## 第1章 技术与需求分析
 ### 1.1 技术分析
 #### 1.1.1 LLM的发展历程与趋势
 #### 1.1.2 开源LLM生态
 - **Llama系列**
 - **Mistral / Mixtral-8X7B-MOE** ：https://mistral.ai/news/mixtral-of-experts/
-- **ChatGLM / Baichuan**
+- **Qwen / Baichuan/ ChatGLM**
 
 ### 1.2 市场需求分析
 #### 1.2.1 需求和就业市场分析
@@ -337,7 +333,9 @@ https://lightning.ai/pages/community/lora-insights/
 ### 8.2 综合应用框架
 #### 8.2.1 LangChain框架核心模块
 **动手学大模型应用开发**: https://datawhalechina.github.io/llm-universe/
+
 **Kaggle RAG实战**: https://www.kaggle.com/code/gpreda/rag-using-llama-2-langchain-and-chromadb/notebook
+
 **9个范例带你入门langchain:** https://zhuanlan.zhihu.com/p/654052645
 
 #### 8.2.2 知识库问答实践

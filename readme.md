@@ -336,7 +336,10 @@ https://lightning.ai/pages/community/lora-insights/
 #### 8.1.2 由少至多提示（Least-to-Most Prompting）
 ### 8.2 综合应用框架
 #### 8.2.1 LangChain框架核心模块
+**动手学大模型应用开发**: https://datawhalechina.github.io/llm-universe/
+**Kaggle RAG实战**: https://www.kaggle.com/code/gpreda/rag-using-llama-2-langchain-and-chromadb/notebook
 **9个范例带你入门langchain:** https://zhuanlan.zhihu.com/p/654052645
+
 #### 8.2.2 知识库问答实践
 ### 8.3 智能代理AI Agent
 LLM Powered Autonomous Agents: https://lilianweng.github.io/posts/2023-06-23-agent/
